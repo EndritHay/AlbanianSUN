@@ -1,0 +1,26 @@
+.audio {
+    text-align: center;
+   margin-top: 0;
+   width: 100%;
+
+}
+.box{
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+.sounds {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sounds h2{
+    color:var(--primary-dark);
+}
+
+@media screen and (max-width:940px) {
+    .sounds {
+        flex-direction: column;
+    }
+}
